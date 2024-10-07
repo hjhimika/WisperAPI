@@ -6,7 +6,7 @@ with open("/content/Japanese Listening Practice.mp3", "rb") as audio_file:
         file = audio_file,
         model = "whisper-1",
         response_format="text",
-        language="ja"
+        language="ja" #select language
     )
 print(transcript_es)
 print("translation:")
